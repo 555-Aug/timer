@@ -10,7 +10,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:clickable="true" app:srcCompat="@drawable/ic_play_arrow_black_24dp"
-            android:id="@+id/floatingActionButton"
+            android:id="@+id/playStop"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.498"
@@ -22,6 +22,6 @@
             android:id="@+id/timerText" tools:text="00:00"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" android:textSize="60sp"
             android:textColor="@color/colorAccent" app:layout_constraintTop_toTopOf="parent"
-            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/floatingActionButton"
+            android:layout_marginBottom="8dp" app:layout_constraintBottom_toTopOf="@+id/playStop"
             app:layout_constraintVertical_bias="0.622"/>
 </android.support.constraint.ConstraintLayout>
